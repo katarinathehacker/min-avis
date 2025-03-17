@@ -59,6 +59,11 @@ article {
 article.large {
     grid-column: span 6;
 }
+.large > img {
+    width: 200px;
+    position: absolute;
+    
+}
 article.xlarge {
     grid-column: span 12;
 }
